@@ -197,7 +197,7 @@ ggplot(data = babynames_MN_MI_John , mapping = aes(x = year, y = number )) +
 
 - Finally, add appropriate title and labels.
 
-```{r fig.cap= "Count of Jonh in Minnesota Vs Michigan", tidy=FALSE}
+```{r fig.cap= "Count of John in Minnesota Vs Michigan", tidy=FALSE}
 ggplot(data = babynames_MN_MI_John , mapping = aes(x = year, y = number)) +
   geom_point(aes(colour=state))+
   xlab("Year") +
